@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Molle&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: calc(0.5em + 1rem); 
+    text-decoration: none;
+}
+
+:root {
+    --bg-yellow: #fff188;
+}
+
+html, body {
+    background-color: var(--bg-yellow);
+    font-family: 'Martel';
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+}
+
+header nav {
+    margin-right: 10vw;
+}
+
+header nav a{
+    font-size: 2rem;
+    margin-right: 4rem;
+}
+
+header img {
+    width: 5%;
+    margin-left: 5vw;
+}
+main {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.hero-img {
+    flex: 1;
+}
+
+.hero-img img {
+    width: 500px;
+}
+
+.hero-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-info h1 {
+    font-family: "Molle", cursive;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 150px;
+    margin-bottom: 8rem;
+}
+
+.hero-info p {
+    font-family: 'Martel';
+    font-size: 40px;
+    text-align: center;
+}
+
+.donuts-small {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+}
+
+.donuts-small img {
+    width: 150px;
+}
+
+.donut-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.second-img {
+    width: 1000px;
+}
+
+.menutext {
+    margin-top: 10rem;
+}
+
+.menutext h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+section {
+    margin-top: 2rem;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 18rem);
+    justify-content: center;
+    gap: 20rem;
+}
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    height: 32rem;
+}
+
+.box-img {
+    flex: 3;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 48px;
+}
+
+.box-img img {
+    width: 80%;
+}
+
+.box-info {
+    margin-top: 2rem;
+}
+
+.box-info h1 {
+    font-weight: 900;
+    text-align: center;
+}
+
+.box-info p {
+    text-align: center;
+}
+
+#donut1 {
+    background-image: url(./assets/chocolate.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#donut2 {
+    background-image: url(./assets/matchadonut.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#donut3 {
+    background-image: url(./assets/ube.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#socials {
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+}
