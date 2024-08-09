@@ -113,7 +113,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, 18rem);
     justify-content: center;
-    gap: 20rem;
+    gap: 12rem;
 }
 
 .box-item {
